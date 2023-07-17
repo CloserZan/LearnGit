@@ -1,0 +1,7 @@
+git仓库 提交顺序: 工作空间 --git add--> 缓存 --git commit--> 本地仓库 --git push--> 远程仓库
+       拉取顺序: 工作空间 <--git restore-- 缓存
+
+git命令: git status   查看文件状态
+        git log --oneline   查看提交记录和版本号
+
+1.小版次更改可以使用 'git add 要添加的文件'命令,回滚使用 'git restore 要回滚的文件'命令
