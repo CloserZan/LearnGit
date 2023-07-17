@@ -6,6 +6,8 @@ git命令: git status   查看文件状态
         git branch '分支名'     创建分支命令
         git checkout '分支名'  切换分支命令
         git branch  查看当前有哪些分支
+        git merge '分支名' 合并其它分支过来
+        git branch -d '分支名' 删除合并后的分支指针
 
 1.小版次更改可以使用 'git add 要添加的文件'命令,回滚使用 'git restore 要回滚的文件'命令
 2.git可以忽略文件,在 gitignore 文件中进行配置
