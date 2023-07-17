@@ -11,3 +11,8 @@ git命令: git status   查看文件状态
 
 1.小版次更改可以使用 'git add 要添加的文件'命令,回滚使用 'git restore 要回滚的文件'命令
 2.git可以忽略文件,在 gitignore 文件中进行配置
+
+以下命令用来解决无法提交的网络问题:
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
